@@ -67,4 +67,36 @@ Example:
 
 ![](./img/14.changegrouppermission.png)
 
+## Side Hustle Task 3
+- Create a group on the server and name it `devops`
+- Create 5 users `["mary", "mohammed", "ravi", "tunji", "sofia"]`, and ensure each user belong to the devops group
+- Create a folder for each user in the `/home/` directory. For example `home/mary`
+- Ensure that the group ownership of each created folder belongs to `devops`
+
+### Solution:
+- TO CREATE `devops` GROUP:
+
+![](./img/15.adddevops.png)
+
+- TO CREATE 5 USERS AND ENSURE THEY ALL BELONG TO `devops` GROUP:
+
+![](./img/16.creatingandaddingusertodevops.png)
+
+- Create a folder for each user in the /home/ directory
+When creating users with the useradd -m command, the home directories (/home/mary, /home/mohammed, etc.) are automatically created.
+
+- Ensure that the group ownership of each created folder belongs to devops
+
+![](./img/17.gropsbelongowndevops.png)
+
+### To check group existence and users in the devops group:
+
+![](./img/18.checkforexistence.png)
+
+### To check ownership of the home/ directory
+
+![](./img/19.ownership.png)
+
+
+
 ## The above practice demonstrates my practical experience with using Linux commands.
