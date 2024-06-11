@@ -2,18 +2,6 @@
 
 ## Here are the applications of what I have learned from this topic:
 
-### File permission commands
-To manage file permissions and ownership, Linux provides several commands:
-
-- `chmod` Command:
-Example: To create emty file and check the file permission - The output after execution shows that the file is not executable.
-
-![](./img/1.createemptyfileandcheckfilepermission.png)
-
-- to make the file executable file using the `chmod` command - look at the screenshot below
-
-![](./img/2.nowexecutable.png)
-
 ## USER MANAGEMENT
 
 ### Creating a User
@@ -58,12 +46,24 @@ TASK:
 
 ## Ensuring Proper Group Permissions
 
+### File permission commands
+To manage file permissions and ownership, Linux provides several commands:
+
+- `chmod` Command:
+Example: To create empty file and check the file permission - The output after execution shows that the file is not executable.
+
+![](./img/1.createemptyfileandcheckfilepermission.png)
+
+- to make the file executable file using the `chmod` command - look at the screenshot below
+
+![](./img/2.nowexecutable.png)
+
 - `chown` Command: Allows me to change the ownership of files, directories, or symbolic links to a specified username or group.
 Example:
 
 ![](./img/13.changeownershipdoc.png)
 
-- Grand read and write permissions to the `developers` group for the directory:
+- Grant read and write permissions to the `developers` group for the directory:
 
 ![](./img/14.changegrouppermission.png)
 
